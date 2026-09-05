@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.next-build/
+out/
+*.tsbuildinfo
+.DS_Store
+npm-debug.log*
+
+# Raw scraped source of coframe.com (large; regenerate with `npm run scrape`).
+# The derived, committed outputs are public/assets/** and app/styles/**.
+scrape/raw/

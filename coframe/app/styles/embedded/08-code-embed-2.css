@@ -1,0 +1,5 @@
+/* Inline <style> embed #8 from www.coframe.com (wrapper: .code-embed) */
+.introduction__step.w--current .introduction__step-heading .label {
+  	color: var(--color--text--primary);
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1.0);
+  }

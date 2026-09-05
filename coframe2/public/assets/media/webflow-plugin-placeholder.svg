@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Local stand-in for Webflow's CMS empty-state placeholder:
+  https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg
+
+  That URL returns HTTP 403 (Webflow blocks the /plugins/ path to non-Webflow
+  origins), so it could not be mirrored during asset fetching. The live page
+  references it from four `.w-dyn-bind-empty` <img> elements, which Webflow's own
+  stylesheet hides with `display: none !important` - so this file is never
+  visible. It exists purely so the replica makes no failing remote request.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <rect width="60" height="60" fill="#e6e6e6"/>
+  <path fill="#b3b3b3" d="M14 40l10-13 7 9 5-6 10 10z"/>
+  <circle cx="20" cy="20" r="4" fill="#b3b3b3"/>
+</svg>

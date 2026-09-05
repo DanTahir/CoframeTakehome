@@ -1,0 +1,71 @@
+/*
+ * Replica-only additions.
+ *
+ * Everything visual comes from the self-hosted Webflow stylesheet and the
+ * extracted inline <style> embeds. This file only supplies the handful of
+ * behaviours the live site implemented through Webflow's IX2 interactions
+ * engine (a proprietary runtime we deliberately do not ship), re-expressed as
+ * plain CSS.
+ */
+
+/* ------------------------------------------------------------------ *
+ * Logo marquee
+ *
+ * The live page drives this with an IX2 "loop" interaction on
+ * .logo-marquee__animation-container, which holds two identical logo
+ * collection lists. Translating the container by -50% therefore lands exactly
+ * on the start of the duplicate set, so the loop is seamless.
+ * ------------------------------------------------------------------ */
+@keyframes logo-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-marquee__animation-container {
+  animation: logo-marquee-scroll 30s linear infinite;
+  will-change: transform;
+}
+
+.logo-marquee:hover .logo-marquee__animation-container {
+  animation-play-state: paused;
+}
+
+/* ------------------------------------------------------------------ *
+ * Cursor animation containers
+ *
+ * The cursor/retype engine sets inline opacity on .cursor-animation once its
+ * IntersectionObserver fires. Starting hidden avoids a flash of the
+ * pre-animation state on first paint.
+ * ------------------------------------------------------------------ */
+.cursor-animation {
+  opacity: 0;
+  transition: opacity 200ms var(--easing-cubic-bezier);
+}
+
+/* Keep the page usable if JavaScript never runs. */
+.no-js .cursor-animation,
+.no-js .fade-in {
+  opacity: 1;
+}
+
+/* ------------------------------------------------------------------ *
+ * Reduced motion
+ * ------------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  .logo-marquee__animation-container {
+    animation: none;
+  }
+
+  .cursor-animation {
+    opacity: 1;
+  }
+
+  .fade-in {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+}

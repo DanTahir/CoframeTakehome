@@ -1,0 +1,15 @@
+/* Inline <style> embed #10 from www.coframe.com (wrapper: .code-embed) */
+.swiper-slide.cc-case-studies {
+		transition: transform 400ms var(--easing-cubic-bezier) !important,
+			opacity 400ms var(--easing-cubic-bezier) !important,
+			height 400ms var(--easing-cubic-bezier) !important,
+			background-color 400ms var(--easing-cubic-bezier) !important;
+	}
+  
+  .swiper-slide.cc-case-studies *:not(.case-study-card__bg-image) {
+  	opacity: 0;
+  }
+
+	.case-study-card-container {
+		transition: opacity 400ms var(--easing-cubic-bezier) !important;
+	}

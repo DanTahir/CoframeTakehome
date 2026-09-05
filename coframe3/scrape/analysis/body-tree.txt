@@ -1,0 +1,75 @@
+div#cursor-container.cursor-container
+div.nav-wrap
+  div.nav.w-nav
+    div.nav__container
+  div.nav-script.w-embed.w-script
+    script  "document.addEventListener('DOMContentLoaded', function() { // Constant"
+  div.nav-dropdown-script.w-embed.w-script
+    style  ".nav__dropdown-toggle.active .nav-dropdown { display: flex; }"
+    script  "function delay(ms) { return new Promise(resolve => setTimeout(resolve,"
+  div.nav-styling.w-embed
+    style  ":root { /* Nav Animation Duration */ --nav-animation-duration: 0.3s; /"
+section#hero.hero
+  div.hero__container
+    div.hero__styling.w-embed
+    div.hero__bg
+    div.hero__inner-container
+div.content.cc-homepage
+  section#introduction.section.cc-introduction
+    div.section-header
+    div.code-embed.w-embed
+    div.introduction-wrap.swiper-container
+  section#compare.section
+    div.section-header
+    div.compare-grid
+  section.section
+    div.banner
+  section#how-it-works.section
+    div.section-header
+    div.how-it-works__columns-container
+    div.cta-centered-wrap.fade-in
+  section#features.section
+    div.section-header
+    div#w-node-bf5006d6-6d42-6144-4b29-77ef47ecf693-47ecf677.w-layout-layout.feature-grid.wf-layout-layout
+    div.cta-centered-wrap.fade-in
+  section#integrations.section
+    div.integrations
+  section#security.section.cc-section-full-width.cc-section-dark
+    div.inline-section-container
+  section#testimonials.section.cc-overflow-visible
+    div.section-header
+    div.swiper-container.cc-case-studies
+    div.code-embed.w-embed
+    div.cta-centered-wrap.fade-in
+  section#blog.section.cc-section-full-width
+    div.container
+section.footer-container
+  div.footer
+    div.footer__wrap
+    div.footer__credits
+div
+  div
+    div.css-styling
+  div
+    div.animations
+  div
+    div.scripts
+a.floating-cta.w-inline-block
+  div.floating-cta__image-wrapper
+    img
+  div.floating-cta__content
+    div.label  "Ask ChatGPT about us"
+    div.label  "Where AI meets ROI"
+div.compare-grid__cell
+  div.compare-grid__light-cell-icons
+    div.compare-grid__cell-x-icon.w-embed
+script
+script
+script
+script
+script  "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.p"
+script  "var gtagScript = document.createElement('script'); gtagScript.src = 'h"
+script  "setTimeout(function(){ var fancyboxScript=document.createElement("scri"
+script
+script  "const originalScale = 0.85; const originalOpacity = 0.25; var swiper1;"
+script  "window.addEventListener('DOMContentLoaded', function() { const replayB"

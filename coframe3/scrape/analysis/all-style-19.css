@@ -1,0 +1,4 @@
+
+    .career-categories__list:has(.w-dyn-empty[style]) {
+          display: none;
+        }

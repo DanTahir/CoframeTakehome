@@ -1,0 +1,35 @@
+{
+  "name": "coframe2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3210",
+    "build": "next build",
+    "start": "next start -p 3210",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "scrape:refs": "node scripts/fetch-refs.mjs",
+    "scrape:inline": "node scripts/dump-inline.mjs",
+    "scrape:assets": "node scripts/fetch-assets.mjs",
+    "gen:sections": "node scripts/gen-sections.mjs",
+    "gen:css": "node scripts/gen-css.mjs"
+  },
+  "dependencies": {
+    "@rive-app/webgl2": "^2.35.0",
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "swiper": "^11.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}

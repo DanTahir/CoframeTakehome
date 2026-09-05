@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-09-05T20:07:47.571Z",
+  "source": "scrape/raw/index.html",
+  "htmlLang": "en",
+  "bodyClasses": [
+    "body"
+  ],
+  "sections": [
+    {
+      "name": "CursorContainerSection",
+      "selector": "div#cursor-container.cursor-container",
+      "elements": 1
+    },
+    {
+      "name": "NavWrapSection",
+      "selector": "div.nav-wrap",
+      "elements": 104
+    },
+    {
+      "name": "HeroSection",
+      "selector": "section#hero.hero",
+      "elements": 128
+    },
+    {
+      "name": "IntroductionSection",
+      "selector": "section#introduction.section.cc-introduction",
+      "elements": 77
+    },
+    {
+      "name": "CompareSection",
+      "selector": "section#compare.section",
+      "elements": 206
+    },
+    {
+      "name": "Section",
+      "selector": "section.section",
+      "elements": 11
+    },
+    {
+      "name": "HowItWorksSection",
+      "selector": "section#how-it-works.section",
+      "elements": 81
+    },
+    {
+      "name": "FeaturesSection",
+      "selector": "section#features.section",
+      "elements": 90
+    },
+    {
+      "name": "IntegrationsSection",
+      "selector": "section#integrations.section",
+      "elements": 38
+    },
+    {
+      "name": "SecuritySection",
+      "selector": "section#security.section.cc-section-full-width.cc-section-dark",
+      "elements": 95
+    },
+    {
+      "name": "TestimonialsSection",
+      "selector": "section#testimonials.section.cc-overflow-visible",
+      "elements": 93
+    },
+    {
+      "name": "BlogSection",
+      "selector": "section#blog.section.cc-section-full-width",
+      "elements": 90
+    },
+    {
+      "name": "FooterContainerSection",
+      "selector": "section.footer-container",
+      "elements": 59
+    },
+    {
+      "name": "DivSection",
+      "selector": "div",
+      "elements": 28
+    },
+    {
+      "name": "FloatingCtaSection",
+      "selector": "a.floating-cta.w-inline-block",
+      "elements": 6
+    },
+    {
+      "name": "CompareGridCellSection",
+      "selector": "div.compare-grid__cell",
+      "elements": 5
+    }
+  ],
+  "composition": [
+    {
+      "kind": "component",
+      "name": "CursorContainerSection"
+    },
+    {
+      "kind": "component",
+      "name": "NavWrapSection"
+    },
+    {
+      "kind": "component",
+      "name": "HeroSection"
+    },
+    {
+      "kind": "wrapper",
+      "tag": "div",
+      "classes": [
+        "content",
+        "cc-homepage"
+      ],
+      "children": [
+        "IntroductionSection",
+        "CompareSection",
+        "Section",
+        "HowItWorksSection",
+        "FeaturesSection",
+        "IntegrationsSection",
+        "SecuritySection",
+        "TestimonialsSection",
+        "BlogSection"
+      ]
+    },
+    {
+      "kind": "component",
+      "name": "FooterContainerSection"
+    },
+    {
+      "kind": "component",
+      "name": "DivSection"
+    },
+    {
+      "kind": "component",
+      "name": "FloatingCtaSection"
+    },
+    {
+      "kind": "component",
+      "name": "CompareGridCellSection"
+    }
+  ],
+  "inlineStyleBlocks": 21,
+  "stylesheets": [
+    {
+      "src": "coframe-d4f597.webflow.shared.284bf7c4c.min.bb679e66.css",
+      "dest": "webflow.css",
+      "bytes": 216306,
+      "unresolvedCdnRefs": 0
+    },
+    {
+      "src": "fancybox.60b0c822.css",
+      "dest": "fancybox.css",
+      "bytes": 15598,
+      "unresolvedCdnRefs": 0
+    },
+    {
+      "src": "swiper-bundle.min.ad3413e1.css",
+      "dest": "swiper.css",
+      "bytes": 18454,
+      "unresolvedCdnRefs": 0
+    }
+  ],
+  "stats": {
+    "dropped": {
+      "script": 9,
+      "style": 21,
+      "comment": 0,
+      "noscript": 0
+    },
+    "rewritten": {
+      "asset": 100,
+      "href": 45
+    },
+    "fadeIn": 47,
+    "swiperRoots": 2,
+    "swiperSlides": 6,
+    "tabPanes": 3,
+    "dropdowns": 2,
+    "canvases": 1,
+    "riveTargets": 1,
+    "cursorAnimations": 14,
+    "retypeTargets": 1,
+    "images": 98,
+    "links": 48
+  }
+}

@@ -1,0 +1,34 @@
+/*
+ * Replica-only styles. Everything visual comes from the generated
+ * fonts/webflow/vendor/embedded stylesheets; this file only holds the handful of
+ * fixes needed because the replica deliberately omits the live page's
+ * third-party tracking scripts.
+ */
+
+/*
+ * The live page ships an "anti-flicker" rule that hides content until the
+ * Intellimize/experimentation script clears the class. The replica never loads
+ * that script, so nothing would ever un-hide the page - neutralise the rule.
+ */
+.anti-flicker,
+.anti-flicker * {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/*
+ * Same reasoning for Webflow's hidden-variation guard: without the optimisation
+ * script deciding which variation to reveal, the default variation must show.
+ */
+[data-wf-hidden-variation],
+[data-wf-hidden-variation] * {
+  display: revert !important;
+  visibility: visible !important;
+}
+
+/* The Rive canvas is sized by its container; keep it from overflowing. */
+[data-animation-type='rive'] canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

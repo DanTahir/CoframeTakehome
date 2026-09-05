@@ -1,0 +1,20 @@
+/* Inline <style> embed #6 from www.coframe.com (wrapper: .hero__styling) */
+.hero__impact {
+    position: relative;
+    background: #f4f5f9;
+    overflow: hidden;
+
+    /* Simulated outer glow with outline */
+    outline: 0.75rem solid rgba(255, 255, 255, 0.3);
+    outline-offset: 0px;
+  }
+  
+	.hero__logos {
+  	opacity: 1 !important;
+  }
+  
+  @media (max-width: 768px) {
+    .hero__impact {
+      outline: 0.5rem solid rgba(255, 255, 255, 0.3);
+    }
+  }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none" role="img" aria-label="">
+  <!--
+    Local stand-in for Webflow's plugins/Basic/assets/placeholder.svg, which
+    returns 403 to non-browser clients. It only ever renders inside empty-state
+    blocks of the CMS collection lists (hidden on the live homepage).
+  -->
+  <rect width="60" height="60" fill="#1a1a1a" />
+  <path d="M0 44l18-16 12 10 12-14 18 20v6H0z" fill="#2e2e2e" />
+  <circle cx="20" cy="18" r="6" fill="#2e2e2e" />
+</svg>

@@ -1,0 +1,4 @@
+/* Inline <style> embed #19 from www.coframe.com (wrapper: .careers-styling) */
+.career-categories__list:has(.w-dyn-empty[style]) {
+          display: none;
+        }

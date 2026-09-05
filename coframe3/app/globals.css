@@ -1,0 +1,18 @@
+/*
+ * Stylesheet order matters and mirrors the source document's <head> exactly
+ * (see scrape/analysis/head-order.txt):
+ *
+ *   1. inter.css     self-hosted Inter, replacing the Google WebFont loader
+ *                    script (`WebFont.load({ google: { families: [...] }})`).
+ *   2. webflow.css   the site's compiled Webflow stylesheet.
+ *   3. fancybox.css  Fancybox UI, linked next in the original head.
+ *   4. swiper.css    Swiper 11 bundle CSS, linked after Fancybox.
+ *   5. embedded.css  all 21 inline <style> blocks, concatenated in source
+ *                    order; last so their overrides win, as in the original.
+ */
+
+@import './styles/inter.css';
+@import './styles/webflow.css';
+@import './styles/fancybox.css';
+@import './styles/swiper.css';
+@import './styles/embedded.css';

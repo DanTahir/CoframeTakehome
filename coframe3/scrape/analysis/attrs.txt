@@ -1,0 +1,338 @@
+id  (41 distinct)
+    coframe-installation-script
+    cursor-container
+    w-node-_1e682bb9-d36a-cdf3-55ca-bc2c10de683e-10de6839
+    product
+    w-node-_211d8948-17d1-59c4-c6df-11826c512ffe-10de6839
+    resources
+    w-node-_4ea238e2-dee5-d5f8-50bd-7791dc1beb13-10de6839
+    w-node-a5ad4edc-8602-24ab-dc90-23491809dba5-10de6839
+    w-node-_72bdf4f8-ec01-babb-6e36-0f3c00c2fa9e-10de6839
+    hero
+    masked-element
+    w-node-_674d6aa7-c193-2fe4-61dd-3519f496b35a-f496b34f
+    cursor__text
+    wf-form-Sign-Up-Form
+    URL-2
+    introduction
+    w-node-_4e7db183-770e-4b77-e91a-da5870a4e162-70a4e12d
+    compare
+    w-node-fa28bd3f-650d-c8a7-cae5-67b1bc206d2f-2f20dc08
+    w-node-fa28bd3f-650d-c8a7-cae5-67b1bc206d30-2f20dc08
+    w-node-fa28bd3f-650d-c8a7-cae5-67b1bc206d32-2f20dc08
+    w-node-fa28bd3f-650d-c8a7-cae5-67b1bc206d34-2f20dc08
+    w-node-fa28bd3f-650d-c8a7-cae5-67b1bc206d37-2f20dc08
+    w-node-fa28bd3f-650d-c8a7-cae5-67b1bc206d3a-2f20dc08
+    how-it-works
+data-wf-native-id-path  (23 distinct)
+    6d38475f-24c3-c136-b35b-4c79780a124b:1e682bb9-d36a-cdf3-55ca
+    6d38475f-24c3-c136-b35b-4c79780a124b:441c1559-62c9-ac85-ee7a
+    6d38475f-24c3-c136-b35b-4c79780a124b:dca7e229-fbb3-cd89-f66c
+    6d38475f-24c3-c136-b35b-4c79780a124b:3dbfd3d1-a648-902c-f9e9
+    6d38475f-24c3-c136-b35b-4c79780a124b:94aed387-4cd9-028a-a05e
+    6d38475f-24c3-c136-b35b-4c79780a124b:4c90383a-cc20-cad8-6396
+    6d38475f-24c3-c136-b35b-4c79780a124b:14d8a6bf-22d9-9f62-4110
+    6d38475f-24c3-c136-b35b-4c79780a124b:68f65459-633a-f15c-d7e7
+    674d6aa7-c193-2fe4-61dd-3519f496b3a2:674d6aa7-c193-2fe4-61dd
+    4e7db183-770e-4b77-e91a-da5870a4e173:4e7db183-770e-4b77-e91a
+    5c9d0430-5eb8-6b0a-f9cf-1de4bfba5869:5c9d0430-5eb8-6b0a-f9cf
+    2a2aaddd-e6bd-bc46-25f2-9449599146d8:2a2aaddd-e6bd-bc46-25f2
+    bf5006d6-6d42-6144-4b29-77ef47ecf6ca:bf5006d6-6d42-6144-4b29
+    47191c61-fe72-fdc8-06cf-8d5d391acbe0:47191c61-fe72-fdc8-06cf
+    79c566e8-64b8-67de-deca-9b4b21b5e253:79c566e8-64b8-67de-deca
+    0daa744f-4cc0-868f-dc4f-dc129c29ea2d:0daa744f-4cc0-868f-dc4f
+    fed19120-30fe-7270-d7f7-4e26f48a0bae:250c11f4-8dac-f132-94a9
+    fed19120-30fe-7270-d7f7-4e26f48a0bae:24f7ea6e-cdba-dad1-1208
+    fed19120-30fe-7270-d7f7-4e26f48a0bae:256729ba-a99d-ff0e-e33e
+    fed19120-30fe-7270-d7f7-4e26f48a0bae:ec5080e3-19a8-607e-8181
+    fed19120-30fe-7270-d7f7-4e26f48a0bae:ff3fa8de-4d67-72b6-9fe8
+    fed19120-30fe-7270-d7f7-4e26f48a0bae:5e3735f2-395d-52b5-757b
+    0dff2235-9f12-8821-553e-84f2451ae5e5:0dff2235-9f12-8821-553e
+data-wf-element-id  (18 distinct)
+    1e682bb9-d36a-cdf3-55ca-bc2c10de683c
+    8cf76c7d-e079-fb10-567e-eb46dcfd2b9e
+    14d8a6bf-22d9-9f62-4110-692ca0f221b9
+    68f65459-633a-f15c-d7e7-156b4340c894
+    1e682bb9-d36a-cdf3-55ca-bc2c10de684a
+    78a5f66c-a5d7-16df-98df-fe814b70e727
+    674d6aa7-c193-2fe4-61dd-3519f496b379
+    674d6aa7-c193-2fe4-61dd-3519f496b37d
+    c57ee76b-d311-7658-6973-cc51bdb603f7
+    0daa744f-4cc0-868f-dc4f-dc129c29ea18
+    250c11f4-8dac-f132-94a9-3d23924047a8
+    250c11f4-8dac-f132-94a9-3d23924047a6
+    24f7ea6e-cdba-dad1-1208-6a10dc230a10
+    256729ba-a99d-ff0e-e33e-b84e01fa2412
+    f115b1c2-47f4-6982-664a-2acfbf74bb99
+    250c11f4-8dac-f132-94a9-3d23924047d7
+    250c11f4-8dac-f132-94a9-3d23924047d9
+    0dff2235-9f12-8821-553e-84f2451ae5dc
+data-wf-component-context  (11 distinct)
+    %5B%7B%22componentId%22%3A%221e682bb9-d36a-cdf3-55ca-bc2c10d
+    %5B%7B%22componentId%22%3A%22674d6aa7-c193-2fe4-61dd-3519f49
+    %5B%7B%22componentId%22%3A%224e7db183-770e-4b77-e91a-da5870a
+    %5B%7B%22componentId%22%3A%225c9d0430-5eb8-6b0a-f9cf-1de4bfb
+    %5B%7B%22componentId%22%3A%222a2aaddd-e6bd-bc46-25f2-9449599
+    %5B%7B%22componentId%22%3A%22bf5006d6-6d42-6144-4b29-77ef47e
+    %5B%7B%22componentId%22%3A%2247191c61-fe72-fdc8-06cf-8d5d391
+    %5B%7B%22componentId%22%3A%2279c566e8-64b8-67de-deca-9b4b21b
+    %5B%7B%22componentId%22%3A%220daa744f-4cc0-868f-dc4f-dc129c2
+    %5B%7B%22componentId%22%3A%22250c11f4-8dac-f132-94a9-3d23924
+    %5B%7B%22componentId%22%3A%220dff2235-9f12-8821-553e-84f2451
+data-label-color  (9 distinct)
+    inherit
+    inherit 60
+    white 50
+    
+    secondary
+    tertiary
+    primary
+    gray
+    white
+data-label-size  (6 distinct)
+    m
+    s
+    l
+    xl
+    sm
+    xs
+data-sides  (6 distinct)
+    top left
+    bottom left
+    top
+    bottom
+    top right
+    bottom right
+data-label-line-height  (5 distinct)
+    1.5
+    1.6
+    1
+    1.3
+    1.4
+data-w-id  (5 distinct)
+    674d6aa7-c193-2fe4-61dd-3519f496b376
+    45608e39-8450-89f5-f213-b80671242aa7
+    a05aa57b-bb2d-bd6f-adad-577c0c4023ab
+    674d6aa7-c193-2fe4-61dd-3519f496b395
+    674d6aa7-c193-2fe4-61dd-3519f496b39e
+role  (4 distinct)
+    banner
+    navigation
+    list
+    listitem
+data-cta-style  (4 distinct)
+    secondary nav
+    
+    secondary
+    dark
+data-position  (4 distinct)
+    top left
+    bottom left
+    top right
+    bottom right
+data-mobile-sides  (4 distinct)
+    
+    left
+    top right
+    right
+data-tablet-sides  (4 distinct)
+    
+    left
+    top right
+    right
+data-cursor-position-mobile  (3 distinct)
+    top right
+    bottom right
+    top left
+data-cursor-position  (3 distinct)
+    bottom right
+    bottom left
+    top left
+data-fade-delay  (3 distinct)
+    l
+    m
+    s
+data-name  (3 distinct)
+    Sign Up Form
+    URL 2
+    Newsletter
+data-paragraph-size  (3 distinct)
+    l
+    s
+    m
+data-w-tab  (3 distinct)
+    Tab 1
+    Tab 2
+    Tab 3
+data-border-mobile  (3 distinct)
+    bottom
+    top bottom
+    top
+data-border  (3 distinct)
+    right
+    left right
+    left
+data-label-weight  (2 distinct)
+    medium
+    semibold
+data-cta-ratio  (2 distinct)
+    auto
+    square
+data-cal-link  (2 distinct)
+    
+    coframe/contact-sales
+data-animation-vertical-side  (2 distinct)
+    bottom
+    top
+data-animation-vertical-start-distance  (2 distinct)
+    -100
+    -150
+data-animation-vertical-side-mobile  (2 distinct)
+    top
+    bottom
+data-animation-horizontal-side  (2 distinct)
+    right
+    left
+data-animation-delay  (2 distinct)
+    0
+    500
+data-animation-retype-loop  (2 distinct)
+    true
+    false
+data-animation-retype  (2 distinct)
+    true
+    false
+data-animation-horizontal-side-mobile  (2 distinct)
+    right
+    left
+data-animation-horizontal-start-distance  (2 distinct)
+    -100
+    -200
+data-heading-color  (2 distinct)
+    white
+    primary
+data-tag-horizontal-position  (2 distinct)
+    right
+    left
+data-tag-background-color  (2 distinct)
+    blue
+    purple
+data-tag-vertical-position  (2 distinct)
+    bottom
+    top
+data-metric-direction  (2 distinct)
+    top
+    left
+data-is-coframe-cursor  (2 distinct)
+    true
+    false
+data-header-style  (2 distinct)
+    light
+    dark
+data-paragraph-style  (2 distinct)
+    light
+    dark
+data-paragraph-line-clamp  (2 distinct)
+    false
+    true
+data-dashed-border-color  (2 distinct)
+    blue
+    purple
+data-wf-domain  (1 distinct)
+    www.coframe.com
+data-wf-page  (1 distinct)
+    66abefe349b0c8356d7504a0
+data-wf-site  (1 distinct)
+    66abefe349b0c8356d750497
+data-wf-intellimize-customer-id  (1 distinct)
+    117508807
+data-animation  (1 distinct)
+    over-left
+data-easing2  (1 distinct)
+    linear
+data-easing  (1 distinct)
+    linear
+data-collapse  (1 distinct)
+    medium
+data-no-scroll  (1 distinct)
+    1
+data-duration  (1 distinct)
+    0
+data-nav-theme  (1 distinct)
+    transparent
+data-doc-height  (1 distinct)
+    1
+data-wf-ao-click-engagement-tracking  (1 distinct)
+    true
+aria-current  (1 distinct)
+    page
+data-animation-duration  (1 distinct)
+    800
+data-retype-text  (1 distinct)
+    true
+data-retype-version-1  (1 distinct)
+    The most powerful way to increase website conversion.
+data-retype-version-2  (1 distinct)
+    Drive more conversion with AI-powered CRO.
+data-retype-version-3  (1 distinct)
+    The future of conversion optimization.
+data-wf-page-id  (1 distinct)
+    66abefe349b0c8356d7504a0
+data-rive-url  (1 distinct)
+    https://cdn.prod.website-files.com/66abefe349b0c8356d750497/
+data-rive-state-machine  (1 distinct)
+    State Machine
+data-rive-artboard  (1 distinct)
+    Artboard
+data-rive-autoplay  (1 distinct)
+    true
+data-rive-is-touch-scroll-enabled  (1 distinct)
+    false
+data-rive-automatically-handle-events  (1 distinct)
+    false
+data-rive-fit  (1 distinct)
+    contain
+data-rive-alignment  (1 distinct)
+    center
+data-animation-type  (1 distinct)
+    rive
+data-header-alignment  (1 distinct)
+    center
+data-current  (1 distinct)
+    Tab 1
+data-duration-in  (1 distinct)
+    0
+data-duration-out  (1 distinct)
+    0
+data-fancybox  (1 distinct)
+    
+data-autoplay  (1 distinct)
+    true
+data-type  (1 distinct)
+    iframe
+data-dashed-border-tag-corner  (1 distinct)
+    
+data-dashed-border  (1 distinct)
+    false
+data-fade  (1 distinct)
+    
+data-is-dark  (1 distinct)
+    
+data-heading-style  (1 distinct)
+    dark
+data-style  (1 distinct)
+    dark
+data-small-desktop-sides  (1 distinct)
+    
+data-small-desktop-position  (1 distinct)
+    
+data-tablet-position  (1 distinct)
+    
+data-mobile-position  (1 distinct)
+    
+data-extended-side  (1 distinct)
+    right
+data-side  (1 distinct)
+    top
+data-wf-cms-context  (1 distinct)
+    %5B%7B%22collectionId%22%3A%2266b2929678dfc3b5394a46d2%22%2C

@@ -1,0 +1,30 @@
+/* Inline <style> embed #13 from www.coframe.com (wrapper: .responsive-text) */
+:root {
+    --font-from-0: 12;
+    --font-to-0: 16;
+    --vw-from-0: calc(1 / 100);
+    --vw-to-0: calc(479 / 100);
+    --coefficient-0: calc((var(--font-to-0) - var(--font-from-0)) / (var(--vw-to-0) - var(--vw-from-0)));
+    --base-0: calc((var(--font-from-0) - var(--vw-from-0) * var(--coefficient-0)) / 16);
+
+    --font-from-1: 14;
+    --font-to-1: 16;
+    --vw-from-1: calc(479 / 100);
+    --vw-to-1: calc(1440 / 100);
+    --coefficient-1: calc((var(--font-to-1) - var(--font-from-1)) / (var(--vw-to-1) - var(--vw-from-1)));
+    --base-1: calc((var(--font-from-1) - var(--vw-from-1) * var(--coefficient-1)) / 16);
+
+    --font-from-2: 16;
+    --font-to-2: 16;
+    --vw-from-2: calc(1440 / 100);
+    --vw-to-2: calc(1920 / 100);
+    --coefficient-2: calc((var(--font-to-2) - var(--font-from-2)) / (var(--vw-to-2) - var(--vw-from-2)));
+    --base-2: calc((var(--font-from-2) - var(--vw-from-2) * var(--coefficient-2)) / 16);
+
+    --font-size-3: 1;
+  }
+
+  html { font-size: calc(var(--font-size-3) * 1rem); }
+  @media screen and (max-width:1728px) { html { font-size: calc(var(--base-2) * 1rem + var(--coefficient-2) * 1vw); } }
+  @media screen and (max-width:1440px) { html { font-size: calc(var(--base-1) * 1rem + var(--coefficient-1) * 1vw); } }
+  @media screen and (max-width:479px) { html { font-size: calc(var(--base-0) * 1rem + var(--coefficient-0) * 1vw); } }

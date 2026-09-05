@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.next-build/
+out/
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+# Raw scraped source: large, re-fetchable via npm run scrape:*
+scrape/raw/
