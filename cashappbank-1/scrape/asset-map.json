@@ -1,0 +1,260 @@
+{
+  "generatedAt": "2026-09-06T20:20:26.566Z",
+  "baseUrl": "https://cash.app/bank",
+  "count": 103,
+  "map": {
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/d7bf85e35b552eb8.css": "/assets/css/d7bf85e35b552eb8.40e770ce.css",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/8a3cd06797c193bc.css": "/assets/css/8a3cd06797c193bc.9104b218.css",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/301f0706686bda52.css": "/assets/css/301f0706686bda52.412a9868.css",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/80a819b4b04b3dc7.css": "/assets/css/80a819b4b04b3dc7.5609a1d0.css",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff2/CashSans-Medium.woff2": "/assets/fonts/CashSans-Medium.b27bd4f1.woff2",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff2/CashSans-Regular.woff2": "/assets/fonts/CashSans-Regular.2197c647.woff2",
+    "https://images.ctfassets.net/jwea2w833xe7/3lCi0ZEAHKNiZjSkirtFJ8/3d93c10743ca892c9d6273b2d570afb7/FDIC_Security.png": "/assets/img/FDIC_Security.6368146e.png",
+    "https://images.ctfassets.net/jwea2w833xe7/fRLoZpoKL6I5fuRgfm1H4/7532dc780c2c9e60b34d3fabd8b4a607/Card_Desktop_Icons003.png": "/assets/img/Card_Desktop_Icons003.b8e4f019.png",
+    "https://images.ctfassets.net/jwea2w833xe7/5w3VW9FOgwpnt8T2T5j9JE/d1367b2e1b941d4791ca0c344cd891b6/Card_Desktop_Icons001.png": "/assets/img/Card_Desktop_Icons001.c49cef05.png",
+    "https://images.ctfassets.net/jwea2w833xe7/1CyvcSnUG1ExvOP5zMrzgb/1bf3784dd96b73f2c4f52abb322adf23/FDIC_Security.svg": "/assets/img/FDIC_Security.52f0a2c4.svg",
+    "https://images.ctfassets.net/jwea2w833xe7/1pH25lMAaR2c5uz6k9tNlS/b1c287644d89305f11db43805feaa06e/Savings_Desktop_Icons_002.png": "/assets/img/Savings_Desktop_Icons_002.3b86a59b.png",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff2/CashSansWide-Black.woff2": "/assets/fonts/CashSansWide-Black.31213e47.woff2",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/5569001bec4d5234.css": "/assets/css/5569001bec4d5234.97b94186.css",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/ea9e4f8beb69a597.css": "/assets/css/ea9e4f8beb69a597.f09edeb4.css",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff2/CashSans-Black.woff2": "/assets/fonts/CashSans-Black.ae2b980f.woff2",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff2/CashSans-Semibold.woff2": "/assets/fonts/CashSans-Semibold.c7f9734d.woff2",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff2/CashSansWide-Semibold.woff2": "/assets/fonts/CashSansWide-Semibold.2ed3bec3.woff2",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff2/CashSans-Bold.woff2": "/assets/fonts/CashSans-Bold.b8d19ad9.woff2",
+    "https://edge.cofra.me/cf.js?config=%7B%22projectId%22%3A%2269bc4c0430c5ac7c09b3159c%22%2C%22startTime%22%3A1788722539165%2C%22timeoutMs%22%3A1000%2C%22currentUrl%22%3A%22https%3A%2F%2Fcash.app%2Fbank%22%2C%22waitForHydration%22%3Atrue%2C%22waitForUserToken%22%3Atrue%2C%22nonce%22%3A%22eQF4Ef%2FIS9gmrCzzbm6t1A%3D%3D%22%7D": "/assets/js/cf.d8a9391d.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/2e3683cd0d1d06ce.js": "/assets/js/2e3683cd0d1d06ce.1666dbd1.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/fcf57902431179e3.js": "/assets/js/fcf57902431179e3.dd85ae7f.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/06aa191a750f68f9.js": "/assets/js/06aa191a750f68f9.bad376aa.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/1e85cf2382b65208.js": "/assets/js/1e85cf2382b65208.a8451153.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/70dbff615f0da97b.js": "/assets/js/70dbff615f0da97b.60bfe120.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/2ec1f94c83e8c2ab.js": "/assets/js/2ec1f94c83e8c2ab.caa7b5b5.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/492bb94a3ea5d406.js": "/assets/js/492bb94a3ea5d406.228cd0a2.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/d33782bb6b2e721b.js": "/assets/js/d33782bb6b2e721b.4dd7fff2.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/a5f2bceee61eaac0.js": "/assets/js/a5f2bceee61eaac0.57424063.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/d12bdb149577bfef.js": "/assets/js/d12bdb149577bfef.9bf9ce42.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/9e2ce76b25d00fba.js": "/assets/js/9e2ce76b25d00fba.05cdcf40.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/turbopack-dce3312e2db41844.js": "/assets/js/turbopack-dce3312e2db41844.660c8b0f.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/a1ecde6e746e2b12.js": "/assets/js/a1ecde6e746e2b12.9cf87ed7.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/80d1edfe2c2cfe62.js": "/assets/js/80d1edfe2c2cfe62.9671dc87.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/5f83183019b8763e.js": "/assets/js/5f83183019b8763e.e8983a87.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/6a9413ae675599f1.js": "/assets/js/6a9413ae675599f1.5c57ce45.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_ssgManifest.js": "/assets/js/_ssgManifest.e840dbae.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/turbopack-bd85ed6b66b7fd3c.js": "/assets/js/turbopack-bd85ed6b66b7fd3c.f1c016ff.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_buildManifest.js": "/assets/js/_buildManifest.58c09db8.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/09d8e1fde4e68ab8.js": "/assets/js/09d8e1fde4e68ab8.23edd276.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/64994e212c9930ff.js": "/assets/js/64994e212c9930ff.67893366.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/eaa18d504fd03e24.js": "/assets/js/eaa18d504fd03e24.3aaa71b2.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/6d5e31c425bfd9b8.js": "/assets/js/6d5e31c425bfd9b8.ae7e04c9.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/d074f1597a688184.js": "/assets/js/d074f1597a688184.a7b190ce.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/697f41d2cf352f0c.js": "/assets/js/697f41d2cf352f0c.9d2670c2.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/1da7940f3ee159c5.js": "/assets/js/1da7940f3ee159c5.0dab90ae.js",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_clientMiddlewareManifest.json": "/assets/data/_clientMiddlewareManifest.dbb3a1c5.json",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/cff80736439b6305.js": "/assets/js/cff80736439b6305.177770f8.js",
+    "https://images.ctfassets.net/jwea2w833xe7/61HdH9OmDXpdWiKitaele4/0ee44d93ffbfe7dede41d858e7617edf/Nav_-_Bank.png": "/assets/img/Nav_-_Bank.50ba6fa0.png",
+    "https://images.ctfassets.net/jwea2w833xe7/1vqb7HeCap2ve5cWFVQmiR/608e6b917d52793f4faa8d921f45fb0c/Nav_-_Card.png": "/assets/img/Nav_-_Card.86c6d6fd.png",
+    "https://images.ctfassets.net/jwea2w833xe7/2Yx3eE2An57TbxrzY5lKLA/bbd7b481c8c4e6169ac73f64cf98cc03/Nav_Send.png": "/assets/img/Nav_Send.e750b0d3.png",
+    "https://images.ctfassets.net/jwea2w833xe7/5aKZ6Qz86sNVMooTk5rv0p/92674fe14f97a3bdd269367a93d6cb08/Nav_-_Save.png": "/assets/img/Nav_-_Save.b4ab6219.png",
+    "https://images.ctfassets.net/jwea2w833xe7/29CzDb1aiwmzUtX6IpTYUf/c35506784a7d3ec5f23392f9617487be/Nav_-_Security.png": "/assets/img/Nav_-_Security.f1b76236.png",
+    "https://images.ctfassets.net/jwea2w833xe7/4KICog8uxNWxAly3iEjToc/a98572320d3fc81a0114bc267b4d637a/Nav_Families.png": "/assets/img/Nav_Families.7605a2bb.png",
+    "https://images.ctfassets.net/jwea2w833xe7/7bK49f3WtYGc6icg97EPz4/d4bdb7199023042a465f4fb70ec89595/pay-in-four.svg": "/assets/img/pay-in-four.f5be519a.svg",
+    "https://images.ctfassets.net/jwea2w833xe7/5hjhdRw3psOBLIqeFo8voi/32544031d5b02e8b2aa0ad19440e9ec6/icon-offers.svg": "/assets/img/icon-offers.7d0215ea.svg",
+    "https://images.ctfassets.net/jwea2w833xe7/ZQ1ysA33bBfbyKq5EEEjn/a9d42a1447bed1db787d81773b0cf935/icon-stocks.svg": "/assets/img/icon-stocks.8f37bf67.svg",
+    "https://images.ctfassets.net/jwea2w833xe7/7KS05jp10Y4MeMqJIvX4lw/391bebd90bde4040ab3ad9453145cf4e/icon-bitcoin.svg": "/assets/img/icon-bitcoin.d9083018.svg",
+    "https://images.ctfassets.net/jwea2w833xe7/4eHO6UCpu47b9fd37N7gGx/5d04f6b15e2a80103bfbe81c4f64d85f/icon-taxes.svg": "/assets/img/icon-taxes.a52d1589.svg",
+    "https://images.ctfassets.net/jwea2w833xe7/7cJHVnR5e6kti42yPtQkOu/401fc3219ca092f562dcab2fc47f569f/deposit.png": "/assets/img/deposit.92b41c6f.png",
+    "https://images.ctfassets.net/jwea2w833xe7/3m7PI67Oq0iQQZumjVlgyG/86839c738f63b808073ee9d3600e1d2b/Nov25-release_Bank_Desktop_Hero.png?fm=webp": "/assets/img/Nov25-release_Bank_Desktop_Hero.b0378ea1.png",
+    "https://videos.ctfassets.net/jwea2w833xe7/1hbaepqDj6sfbr0DwrRuWo/146f57afc16230a9ede6ef73dd840442/Deep-dive-4_Desktop_2D-Motion_SendReceive_web_01_1038x1038.mp4": "/assets/video/Deep-dive-4_Desktop_2D-Motion_SendReceive_web_01_1038x1038.4c38a84c.mp4",
+    "https://images.ctfassets.net/jwea2w833xe7/B0OTDEz60BLBmsiCwZqQP/a28f47e70cf5e11119a5659e177e57ac/new-2up-no-fees-desktop.png?fm=webp": "/assets/img/new-2up-no-fees-desktop.eb0e9e62.png",
+    "https://videos.ctfassets.net/jwea2w833xe7/4ssefOMk2fACmNfLM0ls1V/54276886d88dfdbe799b906cb8c6ab30/ct-Spotlight_pf-CAG_d-Money-tab-layered-carousel_v-Right-Desktop_bv-Green.mp4": "/assets/video/ct-Spotlight_pf-CAG_d-Money-tab-layered-carousel_v-Right-Des.507ddc9a.mp4",
+    "https://images.ctfassets.net/jwea2w833xe7/4aU2Ir17ecImdpXw5VyVnf/c7866e07cc750909a213f7ae30023ed4/Bank_Desktop_2UP_002.png?fm=webp": "/assets/img/Bank_Desktop_2UP_002.ec8edfdb.png",
+    "https://images.ctfassets.net/jwea2w833xe7/2COWcWNJIk9ZaIPoXbZpOz/d0e7d2c8d46087d641bc3bc58887dde2/Overdraft_Desktop_Security_3UP_001.png?fm=webp": "/assets/img/Overdraft_Desktop_Security_3UP_001.c898f56f.png",
+    "https://images.ctfassets.net/jwea2w833xe7/5s9E6JvISxrWbNamcpYSkD/d1eb75efbf30b0ea29c8fc35a52fb2f5/24_7_Fraud.png?fm=webp": "/assets/img/24_7_Fraud.26159eea.png",
+    "https://images.ctfassets.net/jwea2w833xe7/9vRvXiG4K9aG2A6BzYfbo/cf49734516898421a538f280e2f21896/Bank_Desktop_ExploreMore_3UP_001.png?fm=webp": "/assets/img/Bank_Desktop_ExploreMore_3UP_001.568f37f3.png",
+    "https://videos.ctfassets.net/jwea2w833xe7/3fniWAnXbVWuIMsLeas8s6/9236f78d94e93426643caf6112a2e9d9/2D-Motion_SecurityCardLock_web_01_1038x1038.mp4": "/assets/video/2D-Motion_SecurityCardLock_web_01_1038x1038.3d849133.mp4",
+    "https://videos.ctfassets.net/jwea2w833xe7/29jEaf0jO2fESaOYQRWGsI/4062e1ea605b859727c7b59c76471130/Bank_Spotlight-desktop-Cash-App-Card-HANDBRAKE-.mp4": "/assets/video/Bank_Spotlight-desktop-Cash-App-Card-HANDBRAKE-.bac29396.mp4",
+    "https://images.ctfassets.net/jwea2w833xe7/1drAs10DpQXdJ4v4paFmz2/488de19726ddb5925253f30b4e15997a/Bank_Desktop_ExploreMore_3UP_002.png?fm=webp": "/assets/img/Bank_Desktop_ExploreMore_3UP_002.23a9ce99.png",
+    "https://images.ctfassets.net/jwea2w833xe7/3ZINUaCSVBoGL2IA9TvlsC/a3d5fe40fa3d9894adbee0add59f814a/Bank_Desktop_ExploreMore_3UP_003.png?fm=webp": "/assets/img/Bank_Desktop_ExploreMore_3UP_003.08eb714f.png",
+    "https://videos.ctfassets.net/jwea2w833xe7/1XBqvJA3rHK27DmE4IKivY/55f19460ea5a54acb07b010a9bb1b36d/d-Savings-progress-3.25_bv-White.mp4": "/assets/video/d-Savings-progress-3.25_bv-White.16f43980.mp4",
+    "https://videos.ctfassets.net/jwea2w833xe7/4wTh6WLMVLEfHEYpJqeUx5/b85a55e9f9f614f9b132cdf84dbbf0c8/Deep-dive-2_Desktop_2D-Motion_Paycheck_Web_01_1276x968.mp4": "/assets/video/Deep-dive-2_Desktop_2D-Motion_Paycheck_Web_01_1276x968.44df67ba.mp4",
+    "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/a6dad97d9634a72d.js": "/assets/js/a6dad97d9634a72d.f2b14965.js",
+    "https://videos.ctfassets.net/jwea2w833xe7/1R4MDVk669WTaklBcIrM7e/f3268d8a550ece3d9f5bf147f256c29d/Bank-Spotlight_Cash-App-Card-HANDBRAKE-_Mobile.mp4": "/assets/video/Bank-Spotlight_Cash-App-Card-HANDBRAKE-_Mobile.6482ca3c.mp4",
+    "https://videos.ctfassets.net/jwea2w833xe7/2RAXDBSrgCLjoAP8TYeAXR/ac82481eb45033de32ad3d88b7500fc4/Deep_dive_2_Mobile_2D-Motion_Paycheck_Web_01_1276x968.mp4": "/assets/video/Deep_dive_2_Mobile_2D-Motion_Paycheck_Web_01_1276x968.7c88d44d.mp4",
+    "https://videos.ctfassets.net/jwea2w833xe7/7wy9RbEhGvKFGdLDkZE8n5/f68632491e22d6714420986a01332e51/04_Carousel_Savings_withPercentage.mp4": "/assets/video/04_Carousel_Savings_withPercentage.d0043eca.mp4",
+    "https://videos.ctfassets.net/jwea2w833xe7/1aVYPeGgCJajSAdpMHsYmu/a85916aa135737f616e12ccddfdfe57c/2D-Motion_SendReceive_web_01_1038x1038_Mobile.mp4": "/assets/video/2D-Motion_SendReceive_web_01_1038x1038_Mobile.056adc2b.mp4",
+    "https://videos.ctfassets.net/jwea2w833xe7/2xGhzLeqWzcSlnmT2ZyjRK/bba75fa22bcc070ffa52d969147bee80/ct-Spotlight_pf-CAG_d-Money-tab-layered-carousel_v-Center-Mobile_bv-Green.mp4": "/assets/video/ct-Spotlight_pf-CAG_d-Money-tab-layered-carousel_v-Center-Mo.883cf101.mp4",
+    "https://images.ctfassets.net/jwea2w833xe7/6jngIWkEdjpN5JnNGiAzhF/ae9b609bffb3fcd6645bc6ba0d3050fd/CAS2515_Bank_HandOver_02_NJ_Pink__1_.png?fm=webp": "/assets/img/CAS2515_Bank_HandOver_02_NJ_Pink__1_.9d6e7e0e.png",
+    "https://images.ctfassets.net/jwea2w833xe7/5qqkdQN7m0YelujKl3ANr9/8729f323194332691390aa6a42e2f649/Bank_Desktop_2UP_001_2.png?fm=webp": "/assets/img/Bank_Desktop_2UP_001_2.ad2d3b2c.png",
+    "https://images.ctfassets.net/jwea2w833xe7/cqbJFvul5M3n8tabK37o0/e1ba9a67dadcae0df1cf8bde0b89982b/Bank_Mobile_2UP_002.png?fm=webp": "/assets/img/Bank_Mobile_2UP_002.108e3b5c.png",
+    "https://images.ctfassets.net/jwea2w833xe7/F2oGxYY2eXluMKRlGru7R/1d2bfe4a33f2fd7edea72fbcd9d35600/Overdraft_Mobile_Security_3UP_001.png?fm=webp": "/assets/img/Overdraft_Mobile_Security_3UP_001.b3dd8429.png",
+    "https://images.ctfassets.net/jwea2w833xe7/1PdxwFViDek1IdRzR08oHq/18431627782ef82ec0c46b38c1aa69fa/24_7_Fraud__1_.png?fm=webp": "/assets/img/24_7_Fraud__1_.4046fbfe.png",
+    "https://images.ctfassets.net/jwea2w833xe7/6D1xEZzvC8qpCqWo1Eg9b5/2d24e4963bc54208084a0578bfeb9d53/Bank_Mobile_ExploreMore_3UP_001.png?fm=webp": "/assets/img/Bank_Mobile_ExploreMore_3UP_001.e9da9554.png",
+    "https://images.ctfassets.net/jwea2w833xe7/lsmAqNUf8oz4vx9bErf0N/d69c165d7e770739976e531dbaea1c57/Bank_Mobile_ExploreMore_3UP_002-1.png?fm=webp": "/assets/img/Bank_Mobile_ExploreMore_3UP_002-1.1b7ddb45.png",
+    "https://images.ctfassets.net/jwea2w833xe7/72hG61PTcLqqEHwQtZRKfV/e98d9b5803d953485365e097dc4897ac/smaller-mobile-btc-green-bg.png?fm=webp": "/assets/img/smaller-mobile-btc-green-bg.635ff23e.png",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff/CashSans-Regular.woff": "/assets/fonts/CashSans-Regular.e5bbb8c8.woff",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff/CashSans-Medium.woff": "/assets/fonts/CashSans-Medium.568b5e82.woff",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff/CashSans-Semibold.woff": "/assets/fonts/CashSans-Semibold.699e0cf6.woff",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff/CashSans-Bold.woff": "/assets/fonts/CashSans-Bold.bcd7c716.woff",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff/CashSans-Black.woff": "/assets/fonts/CashSans-Black.7ac5bc1b.woff",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff2/CashSansWide-Regular.woff2": "/assets/fonts/CashSansWide-Regular.d38b246a.woff2",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff/CashSansWide-Regular.woff": "/assets/fonts/CashSansWide-Regular.7341af5e.woff",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff2/CashSansWide-Medium.woff2": "/assets/fonts/CashSansWide-Medium.f6a1632f.woff2",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff/CashSansWide-Medium.woff": "/assets/fonts/CashSansWide-Medium.7829bf4c.woff",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff/CashSansWide-Semibold.woff": "/assets/fonts/CashSansWide-Semibold.df5df1df.woff",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff2/CashSansWide-Bold.woff2": "/assets/fonts/CashSansWide-Bold.356e34d1.woff2",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff/CashSansWide-Bold.woff": "/assets/fonts/CashSansWide-Bold.d4cee803.woff",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff/CashSansWide-Black.woff": "/assets/fonts/CashSansWide-Black.3ed704d7.woff",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff2/CashSansMono-Regular.woff2": "/assets/fonts/CashSansMono-Regular.c6010623.woff2",
+    "https://cash-f.squarecdn.com/static/fonts/cashsans/woff/CashSansMono-Regular.woff": "/assets/fonts/CashSansMono-Regular.0a313587.woff",
+    "https://cash-f.squarecdn.com/static/favicon.svg": "/assets/img/favicon.11d6f0ba.svg"
+  },
+  "errors": [
+    {
+      "url": "https://cash.app/2.0/cash/web/cookie-refresh",
+      "error": "HTTP 405"
+    },
+    {
+      "url": "https://cash.app/2.0/cash/web/experiment",
+      "error": "HTTP 405"
+    },
+    {
+      "url": "https://cash.app/2.0/cash/web/cdp",
+      "error": "HTTP 405"
+    },
+    {
+      "url": "https://edge.cofra.me/cf.js",
+      "error": "HTTP 400"
+    },
+    {
+      "url": "https://edge.cofra.me/api/v1/frames",
+      "error": "HTTP 400"
+    },
+    {
+      "url": "https://edge.cofra.me/t",
+      "error": "HTTP 400"
+    },
+    {
+      "url": "https://edge.cofra.me/e.url",
+      "error": "HTTP 400"
+    },
+    {
+      "url": "https://edge.cofra.me/e",
+      "error": "HTTP 400"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/e,t",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/h,d",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/$%7BC(",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/$%7Bk(",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/e.href",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/t,l",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/e,o",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/e",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/t,window.location.href",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/n,location.href",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/e,location.href",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/.concat(a,",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/e,n",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/t",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/$%7BS(",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/a",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/%60https://cash-images-f.squarecdn.com/$%7Bs%7D%60",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/r?tP:tB",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/t,e",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/this.location.href",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/r.url",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/r",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/t.url",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/tr.href",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/tl(a.toString(",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://a@b/",
+      "error": "NETWORK Request cannot be constructed from a URL that includes credentials: https://a@b/"
+    },
+    {
+      "url": "https://xn--e1aybc/",
+      "error": "NETWORK fetch failed"
+    },
+    {
+      "url": "https://a/#%D0%B1",
+      "error": "NETWORK fetch failed"
+    },
+    {
+      "url": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/this",
+      "error": "HTTP 403"
+    }
+  ]
+}

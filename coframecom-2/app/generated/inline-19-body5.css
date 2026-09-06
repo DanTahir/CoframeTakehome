@@ -1,0 +1,7 @@
+/* Inline <style> block 5 from <body>; cascades after all head styles. */
+
+	@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .enterprise-cell {
+			padding: var(--space--32);
+    }
+  }

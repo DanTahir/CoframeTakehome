@@ -1,0 +1,22 @@
+{
+  "targetUrl": "https://www.coframe.com",
+  "slug": "coframecom",
+  "port": 3301,
+
+  "_settleMs": "Hero Rive chart's onLoad fires ~525ms in and the state-machine animation runs ~10s; 3500ms is enough to have a painted, settled hero without baking in a late frame.",
+  "settleMs": 3500,
+  "scrollSettleMs": 90,
+
+  "links": "absolute",
+
+  "_captureMode": "coframe.com is Webflow, i.e. fully server-rendered: the pre-JS response is 237KB/1184 tags vs the rendered DOM's 1447, with every structure present at identical counts (introduction section, impact__animation, data-rive-url, hero__form x10, logo-marquee x26, w-tab-pane x4, introduction__step x14, 48 links, 2 forms, 1 canvas). The 263-tag gap IS the runtime junk: 12 cloneContent() overlay clones (position:absolute; z-index:9999), 2 cursor clones in .cursor-container, and 10 letter-effect split spans. Using the pre-JS response removes that entire bug class at the source instead of per-selector.",
+  "captureMode": "static",
+
+  "codegen": {
+    "_emptySelectors": "script-24.js appends cloned .cursor nodes into .cursor-container all page long and never removes them (only cloneContent clones are removed). The pristine pre-JS markup has `<div class=\"cursor-container\"></div>` — completely empty — so every child in the rendered capture is a transient runtime clone. Shipping them gave a permanent 'Coframe' arrow bubble frozen at left:579px/top:427px over the hero title, plus a 'Jessica' one, on top of the clones our runtime makes.",
+    "emptySelectors": ["[data-replica-empty]", ".cursor-container"],
+
+    "_unwrapSelectors": "fadeInText() splits the h1/subheading into per-word <span class='letter-effect hidden'> and toggles hidden/visible/animate-in. The capture baked in the spans mid-animation; the sanitizer stripped the state class but left the bare .letter-effect wrappers, which CSS renders fully opaque -> headline appeared already faded-in and then sat static. Unwrapping restores the pristine plain text so the retype engine re-splits it itself.",
+    "unwrapSelectors": ["[data-replica-unwrap]", ".letter-effect"]
+  }
+}

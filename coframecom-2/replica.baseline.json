@@ -1,0 +1,39 @@
+{
+  "$comment": [
+    "Proven-upstream-quirk baseline for the viewport gate (scripts/viewport-check.mjs).",
+    "Nothing goes in here unless the SAME deviation was measured on the LIVE site in",
+    "this run. Each entry silences a gate failure, so an unverified guess here would",
+    "hide a real regression.",
+    "",
+    "Verified 2026-09-05 by running `npm run viewports` (local, port 3301) and",
+    "`npm run viewports:live` (https://www.coframe.com) back to back and diffing",
+    "scrape/viewport-report.json."
+  ],
+  "overflow": {
+    "ipad-pro": {
+      "by": 27,
+      "tolerance": 2,
+      "culprit": "div.cursor-container",
+      "why": [
+        "At 1024x1366 @2x the live coframe.com page itself overflows horizontally by",
+        "27px, and the replica reproduces it exactly rather than diverging.",
+        "",
+        "Measured, local vs live, from scrape/viewport-report.json:",
+        "  overflowBy    27    vs 27",
+        "  scrollWidth   1051  vs 1051   (innerWidth 1024)",
+        "  scrollHeight  12931 vs 12931",
+        "  tooWide[0]    div.cursor-container w=1051 right=1051  (identical both sides)",
+        "",
+        "Cause upstream: #cursor-container is the absolutely-positioned overlay that",
+        "hosts the animated cursor clones. The site's own script (captured as",
+        "script-23.js) sizes it to document scrollWidth, and at this specific",
+        "width/dpr the value it latches is 27px wider than the viewport.",
+        "",
+        "Deliberately NOT 'fixed': clamping the overlay would make the replica",
+        "diverge from the original page it is supposed to reproduce. Note the replica",
+        "reported 0 console errors / 0 failed requests / 0 remote requests at this",
+        "viewport, while live reported 2 console errors and 10 failed requests."
+      ]
+    }
+  }
+}

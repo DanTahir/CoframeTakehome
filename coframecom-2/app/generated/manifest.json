@@ -1,0 +1,504 @@
+{
+  "generatedAt": "2026-09-06T03:58:26.244Z",
+  "targetUrl": "https://www.coframe.com/",
+  "source": "scrape/raw/index.static.html (pre-JS server response)",
+  "captureMode": "static",
+  "markupSource": "static",
+  "sourceElementCounts": {
+    "static": 1176,
+    "rendered": 1439
+  },
+  "htmlLang": "en",
+  "bodyClasses": [
+    "body"
+  ],
+  "title": "Coframe – Automate Website Growth 24/7",
+  "hasDescription": true,
+  "sections": [
+    {
+      "name": "CursorContainerSection",
+      "file": "CursorContainerSection.tsx",
+      "tag": "div",
+      "selector": "div#cursor-container.cursor-container",
+      "elements": 1,
+      "nodes": 1
+    },
+    {
+      "name": "NavWrapSection",
+      "file": "NavWrapSection.tsx",
+      "tag": "div",
+      "selector": "div.nav-wrap",
+      "elements": 104,
+      "nodes": 104
+    },
+    {
+      "name": "HeroSection",
+      "file": "HeroSection.tsx",
+      "tag": "section",
+      "selector": "section#hero.hero",
+      "elements": 128,
+      "nodes": 128
+    },
+    {
+      "name": "IntroductionSection",
+      "file": "IntroductionSection.tsx",
+      "tag": "section",
+      "selector": "section#introduction.section.cc-introduction",
+      "elements": 77,
+      "nodes": 77
+    },
+    {
+      "name": "CompareSection",
+      "file": "CompareSection.tsx",
+      "tag": "section",
+      "selector": "section#compare.section",
+      "elements": 206,
+      "nodes": 206
+    },
+    {
+      "name": "Section",
+      "file": "Section.tsx",
+      "tag": "section",
+      "selector": "section.section",
+      "elements": 11,
+      "nodes": 11
+    },
+    {
+      "name": "HowItWorksSection",
+      "file": "HowItWorksSection.tsx",
+      "tag": "section",
+      "selector": "section#how-it-works.section",
+      "elements": 81,
+      "nodes": 81
+    },
+    {
+      "name": "FeaturesSection",
+      "file": "FeaturesSection.tsx",
+      "tag": "section",
+      "selector": "section#features.section",
+      "elements": 90,
+      "nodes": 90
+    },
+    {
+      "name": "IntegrationsSection",
+      "file": "IntegrationsSection.tsx",
+      "tag": "section",
+      "selector": "section#integrations.section",
+      "elements": 38,
+      "nodes": 38
+    },
+    {
+      "name": "SecuritySection",
+      "file": "SecuritySection.tsx",
+      "tag": "section",
+      "selector": "section#security.section.cc-section-full-width.cc-section-dark",
+      "elements": 95,
+      "nodes": 95
+    },
+    {
+      "name": "TestimonialsSection",
+      "file": "TestimonialsSection.tsx",
+      "tag": "section",
+      "selector": "section#testimonials.section.cc-overflow-visible",
+      "elements": 93,
+      "nodes": 93
+    },
+    {
+      "name": "BlogSection",
+      "file": "BlogSection.tsx",
+      "tag": "section",
+      "selector": "section#blog.section.cc-section-full-width",
+      "elements": 90,
+      "nodes": 90
+    },
+    {
+      "name": "FooterContainerSection",
+      "file": "FooterContainerSection.tsx",
+      "tag": "section",
+      "selector": "section.footer-container",
+      "elements": 59,
+      "nodes": 59
+    },
+    {
+      "name": "DivSection",
+      "file": "DivSection.tsx",
+      "tag": "div",
+      "selector": "div",
+      "elements": 28,
+      "nodes": 28
+    },
+    {
+      "name": "FloatingCtaSection",
+      "file": "FloatingCtaSection.tsx",
+      "tag": "a",
+      "selector": "a.floating-cta.w-inline-block",
+      "elements": 6,
+      "nodes": 6
+    },
+    {
+      "name": "CompareGridCellSection",
+      "file": "CompareGridCellSection.tsx",
+      "tag": "div",
+      "selector": "div.compare-grid__cell",
+      "elements": 5,
+      "nodes": 5
+    }
+  ],
+  "composition": [
+    {
+      "kind": "component",
+      "name": "CursorContainerSection"
+    },
+    {
+      "kind": "component",
+      "name": "NavWrapSection"
+    },
+    {
+      "kind": "component",
+      "name": "HeroSection"
+    },
+    {
+      "kind": "wrapper",
+      "tag": "div",
+      "classes": [
+        "content",
+        "cc-homepage"
+      ],
+      "children": [
+        "IntroductionSection",
+        "CompareSection",
+        "Section",
+        "HowItWorksSection",
+        "FeaturesSection",
+        "IntegrationsSection",
+        "SecuritySection",
+        "TestimonialsSection",
+        "BlogSection"
+      ]
+    },
+    {
+      "kind": "component",
+      "name": "FooterContainerSection"
+    },
+    {
+      "kind": "component",
+      "name": "DivSection"
+    },
+    {
+      "kind": "component",
+      "name": "FloatingCtaSection"
+    },
+    {
+      "kind": "component",
+      "name": "CompareGridCellSection"
+    }
+  ],
+  "stylesheets": [
+    "inline-00.css",
+    "vendor-01-coframe-d4f597.webflow.shared.284bf7c4c..css",
+    "vendor-02-css.2d1051c1.css",
+    "inline-03.css",
+    "inline-04.css",
+    "vendor-05-fancybox.60b0c822.css",
+    "inline-06.css",
+    "inline-07.css",
+    "vendor-08-swiper-bundle.min.ad3413e1.css",
+    "inline-09.css",
+    "inline-10.css",
+    "inline-11.css",
+    "inline-12.css",
+    "inline-13.css",
+    "inline-14-body0.css",
+    "inline-15-body1.css",
+    "inline-16-body2.css",
+    "inline-17-body3.css",
+    "inline-18-body4.css",
+    "inline-19-body5.css",
+    "inline-20-body6.css",
+    "inline-21-body7.css",
+    "inline-22-body8.css",
+    "inline-23-body9.css",
+    "inline-24-body10.css",
+    "inline-25-body11.css",
+    "inline-26-body12.css",
+    "inline-27-body13.css",
+    "inline-28-body14.css",
+    "inline-29-body15.css",
+    "inline-30-body16.css"
+  ],
+  "stylesheetDetails": [
+    {
+      "order": 0,
+      "kind": "style",
+      "file": "inline-00.css",
+      "bytes": 58
+    },
+    {
+      "order": 1,
+      "kind": "link",
+      "href": "https://cdn.prod.website-files.com/66abefe349b0c8356d750497/css/coframe-d4f597.webflow.shared.284bf7c4c.min.css",
+      "file": "vendor-01-coframe-d4f597.webflow.shared.284bf7c4c..css",
+      "bytes": 216306,
+      "remainingRemote": 0
+    },
+    {
+      "order": 2,
+      "kind": "link",
+      "href": "https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700",
+      "file": "vendor-02-css.2d1051c1.css",
+      "bytes": 11060,
+      "remainingRemote": 0
+    },
+    {
+      "order": 3,
+      "kind": "style",
+      "file": "inline-03.css",
+      "bytes": 86
+    },
+    {
+      "order": 4,
+      "kind": "style",
+      "file": "inline-04.css",
+      "bytes": 100
+    },
+    {
+      "order": 5,
+      "kind": "link",
+      "href": "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css",
+      "file": "vendor-05-fancybox.60b0c822.css",
+      "bytes": 15598,
+      "remainingRemote": 0
+    },
+    {
+      "order": 6,
+      "kind": "style",
+      "file": "inline-06.css",
+      "bytes": 61
+    },
+    {
+      "order": 7,
+      "kind": "style",
+      "file": "inline-07.css",
+      "bytes": 329
+    },
+    {
+      "order": 8,
+      "kind": "link",
+      "href": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css",
+      "file": "vendor-08-swiper-bundle.min.ad3413e1.css",
+      "bytes": 18454,
+      "remainingRemote": 1
+    },
+    {
+      "order": 9,
+      "kind": "style",
+      "file": "inline-09.css",
+      "bytes": 1315
+    },
+    {
+      "order": 10,
+      "kind": "style",
+      "file": "inline-10.css",
+      "bytes": 945
+    },
+    {
+      "order": 11,
+      "kind": "style",
+      "file": "inline-11.css",
+      "bytes": 2768
+    },
+    {
+      "order": 12,
+      "kind": "style",
+      "file": "inline-12.css",
+      "bytes": 6110
+    },
+    {
+      "order": 13,
+      "kind": "style",
+      "file": "inline-13.css",
+      "bytes": 117
+    },
+    {
+      "order": 14,
+      "kind": "body-style",
+      "file": "inline-14-body0.css",
+      "bytes": 69
+    },
+    {
+      "order": 15,
+      "kind": "body-style",
+      "file": "inline-15-body1.css",
+      "bytes": 7490
+    },
+    {
+      "order": 16,
+      "kind": "body-style",
+      "file": "inline-16-body2.css",
+      "bytes": 383
+    },
+    {
+      "order": 17,
+      "kind": "body-style",
+      "file": "inline-17-body3.css",
+      "bytes": 515
+    },
+    {
+      "order": 18,
+      "kind": "body-style",
+      "file": "inline-18-body4.css",
+      "bytes": 175
+    },
+    {
+      "order": 19,
+      "kind": "body-style",
+      "file": "inline-19-body5.css",
+      "bytes": 128
+    },
+    {
+      "order": 20,
+      "kind": "body-style",
+      "file": "inline-20-body6.css",
+      "bytes": 473
+    },
+    {
+      "order": 21,
+      "kind": "body-style",
+      "file": "inline-21-body7.css",
+      "bytes": 59
+    },
+    {
+      "order": 22,
+      "kind": "body-style",
+      "file": "inline-22-body8.css",
+      "bytes": 654
+    },
+    {
+      "order": 23,
+      "kind": "body-style",
+      "file": "inline-23-body9.css",
+      "bytes": 1371
+    },
+    {
+      "order": 24,
+      "kind": "body-style",
+      "file": "inline-24-body10.css",
+      "bytes": 5384
+    },
+    {
+      "order": 25,
+      "kind": "body-style",
+      "file": "inline-25-body11.css",
+      "bytes": 3656
+    },
+    {
+      "order": 26,
+      "kind": "body-style",
+      "file": "inline-26-body12.css",
+      "bytes": 2783
+    },
+    {
+      "order": 27,
+      "kind": "body-style",
+      "file": "inline-27-body13.css",
+      "bytes": 5047
+    },
+    {
+      "order": 28,
+      "kind": "body-style",
+      "file": "inline-28-body14.css",
+      "bytes": 1504
+    },
+    {
+      "order": 29,
+      "kind": "body-style",
+      "file": "inline-29-body15.css",
+      "bytes": 92
+    },
+    {
+      "order": 30,
+      "kind": "body-style",
+      "file": "inline-30-body16.css",
+      "bytes": 294
+    }
+  ],
+  "assetCount": 160,
+  "assets": {
+    "total": 160,
+    "byKind": {
+      "css": 4,
+      "img": 90,
+      "js": 14,
+      "fonts": 45,
+      "rive": 2,
+      "data": 1,
+      "other": 4
+    }
+  },
+  "sanitizer": {
+    "strippedClasses": 0,
+    "strippedStyleProps": 0,
+    "droppedNodes": 26
+  },
+  "detectedFeatures": {
+    "canvas": 1,
+    "video": 0,
+    "svg": 63,
+    "images": 120,
+    "links": 48,
+    "forms": 2,
+    "iframes": 0,
+    "riveTargets": 1,
+    "swiperRoots": 4,
+    "swiperSlides": 9,
+    "splideRoots": 0,
+    "glideRoots": 0,
+    "fadeIn": 48,
+    "marquee": 26,
+    "tabs": 2,
+    "accordions": 0,
+    "dropdowns": 0,
+    "navBurger": 1,
+    "lazyImages": 94,
+    "typewriter": 1,
+    "counters": 0,
+    "parallax": 0
+  },
+  "detectedLibraries": [
+    "jQuery",
+    "Webflow",
+    "Swiper",
+    "Fancybox"
+  ],
+  "stats": {
+    "dropped": {
+      "script": 9,
+      "style": 17,
+      "comment": 0,
+      "noscript": 0,
+      "thirdParty": 0
+    },
+    "rewritten": {
+      "asset": 106,
+      "href": 41
+    },
+    "strippedClasses": 0,
+    "strippedInlineStyleProps": 0,
+    "emptiedRuntimeHosts": 0,
+    "emptiedRuntimeNodes": 0,
+    "unwrappedRuntimeWrappers": 0,
+    "fadeIn": 47,
+    "swiperRoots": 4,
+    "swiperSlides": 6,
+    "tabPanes": 3,
+    "dropdowns": 0,
+    "canvases": 1,
+    "riveTargets": 1,
+    "videos": 0,
+    "iframes": 0,
+    "forms": 2,
+    "images": 98,
+    "links": 48,
+    "svgs": 49
+  }
+}

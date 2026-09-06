@@ -1,0 +1,15 @@
+
+> coframecom-2@0.1.0 start
+> node scripts/dev.mjs --start
+
+next start on http://localhost:3301  (replica of https://www.coframe.com/)
+(node:37736) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+   ▲ Next.js 15.5.4
+   - Local:        http://localhost:3301
+   - Network:      http://10.0.0.82:3301
+
+ ✓ Starting...
+ ✓ Ready in 644ms
+
+C:\all\projects\CoframeTakehome\coframecom-2>

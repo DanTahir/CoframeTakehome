@@ -1,0 +1,38 @@
+{
+  "targetUrl": "https://www.coframe.com",
+  "slug": "coframecom",
+  "port": 3300,
+
+  "settleMs": 4500,
+  "scrollSettleMs": 120,
+
+  "links": "absolute",
+
+  "codegen": {
+    "keepClasses": ["visible"],
+
+    "stripInlineStyleProps": [
+      "opacity", "transform", "translate", "rotate", "scale",
+      "transition", "transition-duration", "transition-delay", "transition-property",
+      "animation", "animation-delay", "animation-name", "animation-play-state",
+      "visibility", "will-change",
+
+      "backdrop-filter", "-webkit-backdrop-filter", "border-color",
+      "background-color", "cursor", "transform-style", "display",
+      "margin-right", "top", "z-index"
+    ],
+
+    "dropSelectors": [
+      "script", "noscript",
+      "iframe[src*=\"googletagmanager\"]", "iframe[src*=\"doubleclick\"]",
+      "iframe[src*=\"facebook\"]", "iframe[src*=\"hubspot\"]",
+      "#onetrust-consent-sdk", "#CybotCookiebotDialog", "#cookiescript_injected",
+      ".ot-sdk-container", "#usercentrics-root", "#hs-web-interactives-top-anchor",
+      "#intercom-frame", ".intercom-lightweight-app", "#drift-frame-controller",
+      "#crisp-chatbox", "#tawkchat-container", ".grecaptcha-badge",
+      "[data-replica-drop]",
+
+      "[style*=\"z-index: 9999\"]"
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-09-06T20:07:36.439Z",
+  "targetUrl": "https://cash.app/bank",
+  "source": "scrape/raw/index.html (rendered, pre-scroll)",
+  "captureMode": "auto",
+  "markupSource": "rendered",
+  "htmlLang": "en",
+  "bodyClasses": [],
+  "title": "Online Banking with Cash App | Deposit & Transfer Money",
+  "hasDescription": true,
+  "sections": [
+    {
+      "name": "NextSection",
+      "file": "NextSection.tsx",
+      "tag": "div",
+      "selector": "div#__next",
+      "elements": 712,
+      "nodes": 712
+    }
+  ],
+  "composition": [
+    {
+      "kind": "component",
+      "name": "NextSection"
+    }
+  ],
+  "stylesheets": [
+    "vendor-00-d7bf85e35b552eb8.40e770ce.css",
+    "vendor-01-8a3cd06797c193bc.9104b218.css",
+    "vendor-02-ea9e4f8beb69a597.f09edeb4.css",
+    "vendor-03-301f0706686bda52.412a9868.css",
+    "vendor-04-5569001bec4d5234.97b94186.css",
+    "vendor-05-80a819b4b04b3dc7.5609a1d0.css",
+    "inline-06-body0.css"
+  ],
+  "stylesheetDetails": [
+    {
+      "order": 0,
+      "kind": "link",
+      "href": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/d7bf85e35b552eb8.css",
+      "file": "vendor-00-d7bf85e35b552eb8.40e770ce.css",
+      "bytes": 6235,
+      "remainingRemote": 0
+    },
+    {
+      "order": 1,
+      "kind": "link",
+      "href": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/8a3cd06797c193bc.css",
+      "file": "vendor-01-8a3cd06797c193bc.9104b218.css",
+      "bytes": 115807,
+      "remainingRemote": 0
+    },
+    {
+      "order": 2,
+      "kind": "link",
+      "href": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/ea9e4f8beb69a597.css",
+      "file": "vendor-02-ea9e4f8beb69a597.f09edeb4.css",
+      "bytes": 114312,
+      "remainingRemote": 1
+    },
+    {
+      "order": 3,
+      "kind": "link",
+      "href": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/301f0706686bda52.css",
+      "file": "vendor-03-301f0706686bda52.412a9868.css",
+      "bytes": 36709,
+      "remainingRemote": 0
+    },
+    {
+      "order": 4,
+      "kind": "link",
+      "href": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/5569001bec4d5234.css",
+      "file": "vendor-04-5569001bec4d5234.97b94186.css",
+      "bytes": 113765,
+      "remainingRemote": 0
+    },
+    {
+      "order": 5,
+      "kind": "link",
+      "href": "https://cash-f.squarecdn.com/web/marketing/cf86aa2cf06612dfbbf63b7eb77ac533b2130a22/_next/static/chunks/80a819b4b04b3dc7.css",
+      "file": "vendor-05-80a819b4b04b3dc7.5609a1d0.css",
+      "bytes": 122650,
+      "remainingRemote": 0
+    },
+    {
+      "order": 6,
+      "kind": "body-style",
+      "file": "inline-06-body0.css",
+      "bytes": 267
+    }
+  ],
+  "assetCount": 95,
+  "assets": {
+    "total": 95,
+    "byKind": {
+      "css": 6,
+      "fonts": 22,
+      "img": 26,
+      "js": 29,
+      "data": 1,
+      "video": 11
+    }
+  },
+  "sanitizer": {
+    "strippedClasses": 0,
+    "strippedStyleProps": 0,
+    "droppedNodes": 3
+  },
+  "detectedFeatures": {
+    "canvas": 0,
+    "video": 6,
+    "svg": 21,
+    "images": 25,
+    "links": 68,
+    "forms": 0,
+    "iframes": 0,
+    "riveTargets": 0,
+    "swiperRoots": 0,
+    "swiperSlides": 0,
+    "splideRoots": 0,
+    "glideRoots": 0,
+    "fadeIn": 0,
+    "marquee": 0,
+    "tabs": 0,
+    "accordions": 0,
+    "dropdowns": 0,
+    "navBurger": 0,
+    "lazyImages": 0,
+    "typewriter": 0,
+    "counters": 0,
+    "parallax": 0
+  },
+  "detectedLibraries": [
+    "React"
+  ],
+  "stats": {
+    "dropped": {
+      "script": 0,
+      "style": 1,
+      "comment": 0,
+      "noscript": 1,
+      "thirdParty": 1
+    },
+    "rewritten": {
+      "asset": 31,
+      "href": 68
+    },
+    "strippedClasses": 0,
+    "strippedInlineStyleProps": 0,
+    "emptiedRuntimeHosts": 0,
+    "emptiedRuntimeNodes": 0,
+    "unwrappedRuntimeWrappers": 0,
+    "fadeIn": 0,
+    "swiperRoots": 0,
+    "swiperSlides": 0,
+    "tabPanes": 0,
+    "dropdowns": 0,
+    "canvases": 0,
+    "riveTargets": 0,
+    "videos": 6,
+    "iframes": 0,
+    "forms": 0,
+    "images": 25,
+    "links": 82,
+    "svgs": 21
+  }
+}

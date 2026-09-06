@@ -1,0 +1,5 @@
+/* Inline <style> block 7 from <body>; cascades after all head styles. */
+
+	.blog-card:hover .blog-card__icon {
+  	opacity: 1.0;
+  }

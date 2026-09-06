@@ -1,0 +1,53 @@
+{
+  "_comment": [
+    "Replica of coframe.com's homepage. 6th run against this site.",
+    "targetUrl uses the RESOLVED https://www. form: http://www.coframe.com 301s",
+    "to it, and capturing the pre-redirect URL would make every asset-map key",
+    "disagree with the host the browser actually requests from.",
+    "",
+    "Site-specific knowledge lives ONLY in this file; scripts/** stay URL-agnostic."
+  ],
+
+  "targetUrl": "https://www.coframe.com/",
+  "slug": "coframecom",
+  "port": 3302,
+
+  "_captureMode": [
+    "coframe.com is Webflow == fully server-rendered, so the pristine pre-JS",
+    "response contains every structural node. Building from the RENDERED DOM",
+    "bakes in nodes the site's own JS created after load (cloneContent overlay",
+    "clones at z-index:9999, split per-letter hero spans, cursor clones); the",
+    "sanitizer strips runtime classes/styles but CANNOT remove nodes, so those",
+    "ship as permanently-visible duplicates. 'static' is verified correct for",
+    "this site; codegen prints the element-count ratio every run - re-check it."
+  ],
+  "captureMode": "static",
+
+  "_settleMs": "Hero Rive chart + logo marquee need time to settle before capture.",
+  "settleMs": 4000,
+  "scrollSettleMs": 120,
+
+  "links": "absolute",
+
+  "codegen": {
+    "_emptySelectors": [
+      "Runtime clone HOSTS: shipped childless + inline style stripped.",
+      ".cursor-container is filled with .cursor bubble clones by the site's own",
+      "cursor engine at runtime. Kept as a defensive belt alongside captureMode."
+    ],
+    "emptySelectors": ["[data-replica-empty]", ".cursor-container"],
+
+    "_unwrapSelectors": [
+      "Runtime WRAPPERS replaced by their own children, restoring pristine text",
+      "so the site's script can re-split it. .letter-effect spans are produced",
+      "by fadeInText() splitting the hero h1."
+    ],
+    "unwrapSelectors": ["[data-replica-unwrap]", ".letter-effect"],
+
+    "splitMinChildren": 5,
+    "splitMinSections": 3
+  },
+
+  "_viewports": "Defaults are correct for this site (7 devices, 375-1920).",
+  "viewports": null
+}

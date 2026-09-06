@@ -1,0 +1,29 @@
+{
+  "$comment": [
+    "Overflow the LIVE site also exhibits — fidelity, not a bug. Only add an",
+    "entry here after verifying it against live with:",
+    "  npm run viewports -- --live --only=<viewport>",
+    "and seeing the SAME overflowBy and the SAME culprit element on both sides."
+  ],
+  "overflow": {
+    "ipad-pro": {
+      "by": 27,
+      "tolerance": 2,
+      "element": "div.cursor-container",
+      "verified": "2026-09-05",
+      "why": [
+        "At exactly 1024px the inline script (scrape/analysis/script-23.js) sizes",
+        "#cursor-container to document.scrollWidth. The container is itself in the",
+        "document, so once the logo marquee transiently widens the page the",
+        "measurement latches at 1051 and self-reinforces.",
+        "Verified with --live on this run: local scrollWidth 1051 vs innerWidth",
+        "1024 (+27px), live scrollWidth 1051 vs 1024 (+27px), same culprit element",
+        "on both. Reproducing it is correct; 'fixing' it would be an infidelity.",
+        "NOTE: a much larger +416px overflow at this same viewport WAS a real",
+        "replica-only bug (codegen baked the capture-time width:1440px inline onto",
+        "the container, which then fed its own measurement). That is fixed in",
+        "app/lib/coframeCursor.ts. Only the +27px above is upstream-faithful."
+      ]
+    }
+  }
+}

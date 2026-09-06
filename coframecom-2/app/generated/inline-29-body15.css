@@ -1,0 +1,5 @@
+/* Inline <style> block 15 from <body>; cascades after all head styles. */
+
+    .career-categories__list:has(.w-dyn-empty[style]) {
+          display: none;
+        }

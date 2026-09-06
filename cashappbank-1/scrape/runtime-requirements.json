@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-09-06T19:22:52.855Z",
+  "targetUrl": "https://cash.app/bank",
+  "wasm": [],
+  "favicon": {
+    "url": "https://cash.app/favicon.ico",
+    "file": "/favicon.ico",
+    "bytes": 1150
+  },
+  "packages": [],
+  "detectedGlobals": [
+    "React"
+  ],
+  "featureCounts": {
+    "canvas": 0,
+    "video": 6,
+    "svg": 21,
+    "images": 25,
+    "links": 68,
+    "forms": 0,
+    "iframes": 0,
+    "riveTargets": 0,
+    "swiperRoots": 0,
+    "swiperSlides": 0,
+    "splideRoots": 0,
+    "glideRoots": 0,
+    "fadeIn": 0,
+    "marquee": 0,
+    "tabs": 0,
+    "accordions": 0,
+    "dropdowns": 0,
+    "navBurger": 0,
+    "lazyImages": 0,
+    "typewriter": 0,
+    "counters": 0,
+    "parallax": 0
+  }
+}

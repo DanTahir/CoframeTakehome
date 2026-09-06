@@ -1,0 +1,45 @@
+{
+  "targetUrl": "https://cash.app/bank",
+  "slug": "cashappbank",
+  "port": 3303,
+
+  "settleMs": 4000,
+  "scrollSettleMs": 120,
+
+  "links": "absolute",
+
+  "_extraAssets": [
+    "Assets the capture browser never requested, because cash.app selects them",
+    "in JS by viewport and the capture only ever ran at 1440px wide.",
+    "",
+    "1) Mobile (min-width:1px) variants of the 5 responsive <video> sources.",
+    "   Picked from __NEXT_DATA__ sources[].mediaQuery, so a 1440px capture only",
+    "   fetched the min-width:1024px desktop files. Without these the 4 mobile",
+    "   viewports 404 on every video.",
+    "",
+    "2) Mobile variants of the 8 `responsiveImage` <img> nodes. Below",
+    "   max-width:759px (site's own bpTabletPortrait 760px minus 1) the site",
+    "   swaps each to a DIFFERENT asset -- not a rescale: the hero becomes an",
+    "   entirely different photograph (CAS2515_Bank_HandOver_02_NJ_Pink vs",
+    "   Nov25-release_Bank_Desktop_Hero). Derived mechanically by loading the",
+    "   live page at 10 widths (scrape/probe-responsive-images.mjs); note entry",
+    "   `Bank_Desktop_2UP_001_2.png` is the MOBILE asset despite its name, which",
+    "   is why the mapping is machine-derived rather than guessed by filename."
+  ],
+  "extraAssets": [
+    "https://videos.ctfassets.net/jwea2w833xe7/1R4MDVk669WTaklBcIrM7e/f3268d8a550ece3d9f5bf147f256c29d/Bank-Spotlight_Cash-App-Card-HANDBRAKE-_Mobile.mp4",
+    "https://videos.ctfassets.net/jwea2w833xe7/2RAXDBSrgCLjoAP8TYeAXR/ac82481eb45033de32ad3d88b7500fc4/Deep_dive_2_Mobile_2D-Motion_Paycheck_Web_01_1276x968.mp4",
+    "https://videos.ctfassets.net/jwea2w833xe7/7wy9RbEhGvKFGdLDkZE8n5/f68632491e22d6714420986a01332e51/04_Carousel_Savings_withPercentage.mp4",
+    "https://videos.ctfassets.net/jwea2w833xe7/1aVYPeGgCJajSAdpMHsYmu/a85916aa135737f616e12ccddfdfe57c/2D-Motion_SendReceive_web_01_1038x1038_Mobile.mp4",
+    "https://videos.ctfassets.net/jwea2w833xe7/2xGhzLeqWzcSlnmT2ZyjRK/bba75fa22bcc070ffa52d969147bee80/ct-Spotlight_pf-CAG_d-Money-tab-layered-carousel_v-Center-Mobile_bv-Green.mp4",
+
+    "https://images.ctfassets.net/jwea2w833xe7/6jngIWkEdjpN5JnNGiAzhF/ae9b609bffb3fcd6645bc6ba0d3050fd/CAS2515_Bank_HandOver_02_NJ_Pink__1_.png?fm=webp",
+    "https://images.ctfassets.net/jwea2w833xe7/5qqkdQN7m0YelujKl3ANr9/8729f323194332691390aa6a42e2f649/Bank_Desktop_2UP_001_2.png?fm=webp",
+    "https://images.ctfassets.net/jwea2w833xe7/cqbJFvul5M3n8tabK37o0/e1ba9a67dadcae0df1cf8bde0b89982b/Bank_Mobile_2UP_002.png?fm=webp",
+    "https://images.ctfassets.net/jwea2w833xe7/F2oGxYY2eXluMKRlGru7R/1d2bfe4a33f2fd7edea72fbcd9d35600/Overdraft_Mobile_Security_3UP_001.png?fm=webp",
+    "https://images.ctfassets.net/jwea2w833xe7/1PdxwFViDek1IdRzR08oHq/18431627782ef82ec0c46b38c1aa69fa/24_7_Fraud__1_.png?fm=webp",
+    "https://images.ctfassets.net/jwea2w833xe7/6D1xEZzvC8qpCqWo1Eg9b5/2d24e4963bc54208084a0578bfeb9d53/Bank_Mobile_ExploreMore_3UP_001.png?fm=webp",
+    "https://images.ctfassets.net/jwea2w833xe7/lsmAqNUf8oz4vx9bErf0N/d69c165d7e770739976e531dbaea1c57/Bank_Mobile_ExploreMore_3UP_002-1.png?fm=webp",
+    "https://images.ctfassets.net/jwea2w833xe7/72hG61PTcLqqEHwQtZRKfV/e98d9b5803d953485365e097dc4897ac/smaller-mobile-btc-green-bg.png?fm=webp"
+  ]
+}

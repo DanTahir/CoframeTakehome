@@ -1,0 +1,5 @@
+/* Inline <style> block 0 from <body>; cascades after all head styles. */
+
+	.nav__dropdown-toggle.active .nav-dropdown {
+  	display: flex;
+  }

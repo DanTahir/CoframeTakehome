@@ -1,0 +1,15 @@
+/*
+ * GENERATED — do not edit by hand (`npm run codegen`).
+ *
+ * Imports every captured stylesheet in the EXACT order the original
+ * document declared them, so the cascade (and therefore specificity
+ * resolution) matches the source page rather than approximating it.
+ */
+
+@import './vendor-00-d7bf85e35b552eb8.40e770ce.css';
+@import './vendor-01-8a3cd06797c193bc.9104b218.css';
+@import './vendor-02-ea9e4f8beb69a597.f09edeb4.css';
+@import './vendor-03-301f0706686bda52.412a9868.css';
+@import './vendor-04-5569001bec4d5234.97b94186.css';
+@import './vendor-05-80a819b4b04b3dc7.5609a1d0.css';
+@import './inline-06-body0.css';

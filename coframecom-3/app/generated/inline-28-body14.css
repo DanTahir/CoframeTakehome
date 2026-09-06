@@ -1,0 +1,67 @@
+/* Inline <style> block 14 from <body>; cascades after all head styles. */
+
+	:root {
+		--letter-effect-duration: 0.6s;
+		--letter-effect-blur: 10px;
+		--letter-effect-translate: 20px;
+		--letter-effect-scale: 1.15;
+	}
+  
+  .letter-effect {
+  	display: inline;
+  	white-space: normal;
+    transform-origin: center center;
+  }
+
+	/* Initial hidden state */
+	.letter-effect.hidden {
+		opacity: 0;
+		filter: blur(var(--letter-effect-blur));
+		transform: scale(var(--letter-effect-scale)) translateY(var(--letter-effect-translate));
+	}
+
+	/* Visible state for after the animation */
+	.letter-effect.visible {
+  	display: inline-block;
+  	white-space: pre;
+		opacity: 1;
+		filter: blur(0px);
+		transform: scale(1) translateY(0%);
+	}
+
+	/* Animation classes */
+	.letter-effect.animate-in {
+		animation: letterEffectIn var(--letter-effect-duration) var(--easing-cubic-bezier) forwards;
+	}
+
+	.letter-effect.animate-out {
+		animation: letterEffectOut var(--letter-effect-duration) var(--easing-cubic-bezier) forwards;
+	}
+
+	@keyframes letterEffectIn {
+		0% {
+			opacity: 0;
+			filter: blur(var(--letter-effect-blur));
+			transform: scale(var(--letter-effect-scale)) translateY(var(--letter-effect-translate));
+		}
+
+		100% {
+			opacity: 1;
+			filter: blur(0px);
+			transform: scale(1) translateY(0%);
+		}
+	}
+
+	@keyframes letterEffectOut {
+		0% {
+			opacity: 1;
+			filter: blur(0px);
+			transform: scale(1) translateY(0%);
+		}
+
+		100% {
+			opacity: 0;
+			filter: blur(var(--letter-effect-blur));
+			transform: scale(var(--letter-effect-scale)) translateY(var(--letter-effect-translate));
+		}
+	}
