@@ -1,0 +1,143 @@
+{
+  "_comment": [
+    "Site-specific configuration for the https://dropbox.com replica.",
+    "The pipeline scripts are URL-agnostic; everything site-specific lives here."
+  ],
+
+  "targetUrl": "https://dropbox.com",
+  "slug": "dropboxcom",
+  "port": 3304,
+
+  "settleMs": 3500,
+  "scrollSettleMs": 120,
+
+  "links": "absolute",
+
+  "_captureMode": [
+    "'rendered' is required for this site, and the evidence is unusually clear.",
+    "The pre-JS server response (index.static.html) is 91% of the elements and",
+    "94% of the asset nodes, so 'auto' picked 'static' — but what it is missing is",
+    "exactly the content that matters:",
+    "  1. The security testimonial grid ([class*=quoteCardsGrid]) is present in",
+    "     static but with children=0 — i.e. a VISIBLE EMPTY HOLE. Rendered has 3",
+    "     cards, 3 images and 497 chars of quote text. Confirmed at DOM level, not",
+    "     by substring count.",
+    "  2. All 4 autoplay product videos are absent from static, which ships PNG",
+    "     stills in their place (the site upgrades them client-side).",
+    "The usual objection to 'rendered' — baked runtime clones — does NOT apply",
+    "here: a DOM-level duplicate-heading census returns the SAME 3 duplicates for",
+    "both sources ('Teams', 'Use cases', 'Industries', which are genuine nav",
+    "dropdown labels appearing in both desktop and mobile menus). Rendered's only",
+    "contamination is 3 body-level iframes, all droppable by selector below.",
+    "Known, accepted consequence: the rendered capture caught the Cloudflare A/B",
+    "variant headline ('One place to store, share, and finish the job'); the static",
+    "control reads 'Find, organize, and share your work, all in one place'. The",
+    "live page serves either at random, so an h1 mismatch in `npm run compare` is",
+    "expected noise, not a defect."
+  ],
+  "captureMode": "rendered",
+
+  "codegen": {
+    "keepClasses": [],
+    "stripClasses": null,
+    "_dropSelectors": [
+      "This list REPLACES the defaults in scripts/lib/config.mjs, so the whole",
+      "default set is repeated verbatim and the site-specific entries appended.",
+      "Site-specific additions, all direct children of <body> in the rendered",
+      "capture (verified with scrape/probe-decide.mjs):",
+      "  #ccpa-iframe / iframe[src*=ccpa_iframe] - the CCPA/GDPR consent banner.",
+      "      Rendered at 216px tall over the page; region-dependent, not design.",
+      "  iframe[src*=marketing.dropbox.com]      - hidden tracking iframe",
+      "      (hidden + display:none).",
+      "  iframe[src*=about:blank]                - a visibility:hidden shim.",
+      "  source[type*=quicktime]                 - see _quicktimeNote below."
+    ],
+    "dropSelectors": [
+      "script",
+      "noscript",
+      "iframe[src*=\"googletagmanager\"]",
+      "iframe[src*=\"doubleclick\"]",
+      "iframe[src*=\"facebook\"]",
+      "iframe[src*=\"hubspot\"]",
+      "#onetrust-consent-sdk",
+      "#CybotCookiebotDialog",
+      "#cookiescript_injected",
+      ".ot-sdk-container",
+      "#usercentrics-root",
+      "#hs-web-interactives-top-anchor",
+      "#intercom-frame",
+      ".intercom-lightweight-app",
+      "#drift-frame-controller",
+      "#crisp-chatbox",
+      "#tawkchat-container",
+      ".grecaptcha-badge",
+      "next-route-announcer",
+      "[data-replica-drop]",
+
+      "#ccpa-iframe",
+      "iframe[src*=\"ccpa_iframe\"]",
+      "iframe[src*=\"marketing.dropbox.com\"]",
+      "iframe[src*=\"about:blank\"]",
+      "source[type*=\"quicktime\"]"
+    ],
+    "emptySelectors": null,
+    "unwrapSelectors": null,
+    "splitMinChildren": 5,
+    "splitMinSections": 3,
+
+    "_skipStylesheets": [
+      "Cascade position 4 of the <head> links font_sharp_grotesk-vflwgPRUu.scss —",
+      "and Dropbox serves the raw, UNCOMPILED SCSS SOURCE at that URL: it still",
+      "contains `// comments` and `$font_weight_book: 400` declarations, and all",
+      "15 of its @font-face src url()s are unresolved SCSS interpolations.",
+      "A browser just applies CSS error recovery and drops the lot, which is why",
+      "the capture's network log shows ZERO font requests from this sheet. But",
+      "webpack's postcss parses eagerly and hard-fails: 'Unknown word (5:4)' at",
+      "the first `//`, which fails `next build` outright.",
+      "Safe to skip, on two verified grounds:",
+      "  1. It is the ONLY sheet of all 123 with unmapped /static/ url()s (75 of",
+      "     them); every other sheet is fully localized to /assets.",
+      "  2. Nothing is lost. vendor-15 (font_sharp_grotesk-vflRd2mZl.CSS, cascade",
+      "     position 15, i.e. LATER and therefore winning) is the compiled build",
+      "     of the very same source: identical 15 @font-face rules, the identical",
+      "     4 families (SharpGrotesk / Condensed / SuperCondensed / Wide), real",
+      "     numeric font-weights 400/500/600, and all 75 url()s self-hosted.",
+      "     vendor-04 defines no selector rules at all — only @font-face."
+    ],
+    "skipStylesheets": [
+      "font_sharp_grotesk-vflwgPRUu.scss"
+    ]
+  },
+
+  "_quicktimeNote": [
+    "Each of the 4 videos declares three <source>s in this order:",
+    "  video/quicktime; codecs=hvc1  (.mov, alpha for Safari)",
+    "  video/webm; codecs=vp9        (.webm, alpha for Chromium)",
+    "  video/mp4                     (src=\"\", an empty placeholder)",
+    "The capture browser's network log proves Chromium fetched ONLY the 4 .webm",
+    "(HTTP 206) and issued ZERO requests for any .mov. The scraper still pulled",
+    "the .mov files from markup, and the hero one alone is 141MB (~155MB total,",
+    "far larger than the rest of the replica combined) for bytes no audited",
+    "browser ever loads. So the quicktime <source> is dropped and those 4 files",
+    "are deleted. Deviation from live: Safari would fall back to the webm's",
+    "transparency support rather than hvc1. Nothing the 7-viewport Chromium gate",
+    "or the pixel diff can observe."
+  ],
+
+  "viewports": null,
+
+  "_extraAssets": [
+    "The page declares <link rel=\"shortcut icon\"> pointing at the CDN copy of",
+    "favicon.ico, but the capture browser never requested it (it had the icon",
+    "cached), so scrape never downloaded it and codegen dropped the icon link",
+    "rather than leak a remote request. Naming it here downloads it, which both",
+    "restores the declared icon AND gives fetch-extras a real .ico to copy to",
+    "public/favicon.ico — Chromium probes the origin root for that unconditionally",
+    "from the browser process, and the resulting 404 is invisible to Playwright's",
+    "request events while still tripping the console-error gate.",
+    "Verified fetchable: HTTP 200, image/vnd.microsoft.icon, 4286 bytes."
+  ],
+  "extraAssets": [
+    "https://cfl.dropboxstatic.com/static/metaserver/static/images/favicon.ico"
+  ]
+}

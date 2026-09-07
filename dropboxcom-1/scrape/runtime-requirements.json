@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-09-07T19:32:51.326Z",
+  "targetUrl": "https://dropbox.com/",
+  "wasm": [],
+  "favicon": {
+    "url": "https://dropbox.com/favicon.ico",
+    "file": "/favicon.ico",
+    "cached": true
+  },
+  "packages": [],
+  "detectedGlobals": [
+    "React"
+  ],
+  "featureCounts": {
+    "canvas": 0,
+    "video": 4,
+    "svg": 39,
+    "images": 77,
+    "links": 138,
+    "forms": 0,
+    "iframes": 3,
+    "riveTargets": 0,
+    "swiperRoots": 0,
+    "swiperSlides": 0,
+    "splideRoots": 0,
+    "glideRoots": 0,
+    "fadeIn": 0,
+    "marquee": 1,
+    "tabs": 0,
+    "accordions": 0,
+    "dropdowns": 6,
+    "navBurger": 1,
+    "lazyImages": 77,
+    "typewriter": 0,
+    "counters": 0,
+    "parallax": 0
+  }
+}
